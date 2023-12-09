@@ -5,14 +5,6 @@ function fetchData(urlApi){
   return fetch(urlApi);
 };
 
-// fetchData(`${API}/products`)
-//   .then(response => response.json())
-//   .then(products =>{
-//     console.log(products);
-//   })
-//   .then(()=> console.log('hola'))
-//   .catch(error => console.log(error))
-
 fetchData(`${API}/products`)
   .then(response => response.json())
   .then(products =>{
