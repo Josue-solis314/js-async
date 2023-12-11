@@ -9,7 +9,8 @@
     "fetch": "node src/promise/challenge.js",
     "post": "node src/promise/challenge-post.js",
     "async": "node src/async/index.js",
-    "prueba": "node src/async/challenge.js"
+    "prueba": "node src/async/challenge.js",
+    "generator": "node src/generator/index.js"
   },
   "keywords": [
     "javascript"
